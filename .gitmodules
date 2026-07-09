@@ -1,0 +1,3 @@
+[submodule "cc-hongz-ztools-captcha"]
+	path = cc-hongz-ztools-captcha
+	url = https://gitee.com/deligense/cc-hongz-ztools-captcha.git
