@@ -7,3 +7,6 @@
 [submodule "cc-hongz-ztools-crypto"]
 	path = cc-hongz-ztools-crypto
 	url = https://gitee.com/deligense/cc-hongz-ztools-crypto.git
+[submodule "cc-hongz-ztools-response"]
+	path = cc-hongz-ztools-response
+	url = https://gitee.com/deligense/cc-hongz-ztools-response.git
