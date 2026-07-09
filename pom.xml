@@ -19,5 +19,6 @@
 
     <modules>
         <module>cc-hongz-ztools-captcha</module>
+        <module>cc-hongz-ztools-core</module>
     </modules>
 </project>
