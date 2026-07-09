@@ -4,3 +4,6 @@
 [submodule "cc-hongz-ztools-core"]
 	path = cc-hongz-ztools-core
 	url = https://gitee.com/deligense/cc-hongz-ztools-core.git
+[submodule "cc-hongz-ztools-crypto"]
+	path = cc-hongz-ztools-crypto
+	url = https://gitee.com/deligense/cc-hongz-ztools-crypto.git
