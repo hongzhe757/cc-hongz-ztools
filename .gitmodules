@@ -10,3 +10,6 @@
 [submodule "cc-hongz-ztools-response"]
 	path = cc-hongz-ztools-response
 	url = https://gitee.com/deligense/cc-hongz-ztools-response.git
+[submodule "cc-hongz-ztools-system"]
+	path = cc-hongz-ztools-system
+	url = https://gitee.com/deligense/cc-hongz-ztools-system.git
