@@ -9,7 +9,4 @@
 
     <!-- PasswdStrength: check/getLevel/checkCharacterType 方法中的魔数是密码强度算法固有常量 -->
     <suppress files="PasswdStrength.java" checks="MagicNumber"/>
-
-    <!-- PasswdStrength: CHAR_TYPE 枚举常量名称自解释，无需 Javadoc -->
-    <suppress files="PasswdStrength.java" checks="JavadocVariable"/>
 </suppressions>
