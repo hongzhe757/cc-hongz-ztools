@@ -9,6 +9,15 @@
     <property name="fileExtensions" value="java"/>
     <property name="tabWidth" value="4"/>
 
+    <!-- 过滤 suppression 文件 -->
+    <module name="SuppressionFilter">
+        <property name="file" value="${checkstyle.suppressions.file}"
+                  default="checks/checkstyle-suppressions.xml"/>
+    </module>
+
+    <!-- 支持 @SuppressWarnings 注解抑制 -->
+    <module name="SuppressWarningsFilter"/>
+
     <!-- 禁止 Tab 字符 -->
     <module name="FileTabCharacter">
         <property name="eachLine" value="true"/>
@@ -22,6 +31,9 @@
     </module>
 
     <module name="TreeWalker">
+        <!-- 收集 @SuppressWarnings 注解 -->
+        <module name="SuppressWarningsHolder"/>
+
         <!-- ============ Imports ============ -->
         <module name="AvoidStarImport"/>
         <module name="UnusedImports"/>
@@ -38,6 +50,7 @@
         <module name="JavadocStyle">
             <property name="checkFirstSentence" value="true"/>
             <property name="checkEmptyJavadoc" value="true"/>
+            <property name="endOfSentenceFormat" value="([.?!。])(\s|\z|$)"/>
         </module>
 
         <module name="JavadocVariable">

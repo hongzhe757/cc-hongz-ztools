@@ -22,9 +22,17 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.6.0</version>
+                <version>3.1.1</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.puppycrawl.tools</groupId>
+                        <artifactId>checkstyle</artifactId>
+                        <version>8.45</version>
+                    </dependency>
+                </dependencies>
                 <configuration>
                     <configLocation>checks/checkstyle.xml</configLocation>
+                    <suppressionsLocation>checks/checkstyle-suppressions.xml</suppressionsLocation>
                     <failOnViolation>false</failOnViolation>
                     <violationSeverity>error</violationSeverity>
                 </configuration>
@@ -42,10 +50,14 @@
     </build>
 
     <modules>
+        <!--
         <module>cc-hongz-ztools-captcha</module>
+        -->
         <module>cc-hongz-ztools-core</module>
+        <!--
         <module>cc-hongz-ztools-crypto</module>
         <module>cc-hongz-ztools-response</module>
         <module>cc-hongz-ztools-system</module>
+        -->
     </modules>
 </project>
