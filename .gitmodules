@@ -13,3 +13,6 @@
 [submodule "cc-hongz-ztools-system"]
 	path = cc-hongz-ztools-system
 	url = https://gitee.com/deligense/cc-hongz-ztools-system.git
+[submodule "cc-hongz-ztools-log"]
+	path = cc-hongz-ztools-log
+	url = https://gitee.com/deligense/cc-hongz-ztools-log.git
