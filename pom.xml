@@ -54,10 +54,10 @@
         <module>cc-hongz-ztools-captcha</module>
         -->
         <module>cc-hongz-ztools-core</module>
+        <module>cc-hongz-ztools-system</module>
         <!--
         <module>cc-hongz-ztools-crypto</module>
         <module>cc-hongz-ztools-response</module>
-        <module>cc-hongz-ztools-system</module>
         -->
     </modules>
 </project>
