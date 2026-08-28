@@ -3,6 +3,7 @@ package cc.hongz.ztools.script.test;
 import cc.hongz.ztools.core.io.resource.ResourceUtil;
 import cc.hongz.ztools.script.ScriptRuntimeException;
 import cc.hongz.ztools.script.ScriptUtil;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,6 +23,7 @@ public class ScriptUtilTest {
 
     @Test
     @DisplayName("编译脚本")
+    @Disabled("Nashorn 已从 JDK 15+ 移除")
     public void compileTest() {
         CompiledScript script = ScriptUtil.compile("print('Script test!');");
         try {
@@ -33,12 +35,14 @@ public class ScriptUtilTest {
 
     @Test
     @DisplayName("执行脚本")
+    @Disabled("Nashorn 已从 JDK 15+ 移除")
     public void evalTest() {
         ScriptUtil.eval("print('Script test!');");
     }
 
     @Test
     @DisplayName("调用脚本方法")
+    @Disabled("Nashorn 已从 JDK 15+ 移除")
     public void invokeTest() {
         final Object result = ScriptUtil.invoke(ResourceUtil.readUtf8Str("filter1.js"), "filter1", 2, 1);
         assertTrue((Boolean) result);
