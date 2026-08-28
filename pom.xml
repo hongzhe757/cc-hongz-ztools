@@ -59,6 +59,7 @@
         <module>cc-hongz-ztools-jwt</module>
         <module>cc-hongz-ztools-socket</module>
         <module>cc-hongz-ztools-setting</module>
+        <module>cc-hongz-ztools-script</module>
         <!--
         <module>cc-hongz-ztools-crypto</module>
         <module>cc-hongz-ztools-response</module>
