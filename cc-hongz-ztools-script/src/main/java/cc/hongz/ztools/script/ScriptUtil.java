@@ -13,7 +13,17 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
 /**
- * 脚本工具类.
+ * 脚本工具类，基于 JSR 223 封装常用脚本引擎的获取与执行.
+ *
+ * <p>
+ * 内置便捷方法支持的引擎：
+ * <ul>
+ *     <li>JavaScript：{@link #getJsEngine()} / {@link #createJsEngine()}（JDK 内置，JDK 15+ 需 GraalJS）</li>
+ *     <li>Python：{@link #getPythonEngine()} / {@link #createPythonEngine()}（需引入 org.python:jython）</li>
+ *     <li>Lua：{@link #getLuaEngine()} / {@link #createLuaEngine()}（需引入 org.luaj:luaj-jse）</li>
+ *     <li>Groovy：{@link #getGroovyEngine()} / {@link #createGroovyEngine()}（需引入 org.codehaus.groovy:groovy-all）</li>
+ * </ul>
+ * 其它实现 JSR 223 的引擎（如 Ruby、Kotlin、BeanShell）可通过 {@link #getScript(String)} 或 {@link #createScript(String)} 加载.
  *
  * @author Looly
  */
