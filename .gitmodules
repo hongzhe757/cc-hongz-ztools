@@ -16,3 +16,6 @@
 [submodule "cc-hongz-ztools-log"]
 	path = cc-hongz-ztools-log
 	url = https://gitee.com/deligense/cc-hongz-ztools-log.git
+[submodule "cc-hongz-ztools-json"]
+	path = cc-hongz-ztools-json
+	url = https://gitee.com/deligense/cc-hongz-ztools-json.git
