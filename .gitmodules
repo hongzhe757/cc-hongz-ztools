@@ -25,3 +25,6 @@
 [submodule "cc-hongz-ztools-socket"]
 	path = cc-hongz-ztools-socket
 	url = https://gitee.com/deligense/cc-hongz-ztools-socket.git
+[submodule "cc-hongz-ztools-setting"]
+	path = cc-hongz-ztools-setting
+	url = https://gitee.com/deligense/cc-hongz-ztools-setting.git
