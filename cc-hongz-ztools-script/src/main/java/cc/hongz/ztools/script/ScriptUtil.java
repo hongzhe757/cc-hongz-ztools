@@ -22,8 +22,13 @@ import javax.script.ScriptException;
  *     <li>Python：{@link #getPythonEngine()} / {@link #createPythonEngine()}（需引入 org.python:jython）</li>
  *     <li>Lua：{@link #getLuaEngine()} / {@link #createLuaEngine()}（需引入 org.luaj:luaj-jse）</li>
  *     <li>Groovy：{@link #getGroovyEngine()} / {@link #createGroovyEngine()}（需引入 org.codehaus.groovy:groovy-all）</li>
+ *     <li>Ruby：{@link #getRubyEngine()} / {@link #createRubyEngine()}（需引入 org.jruby:jruby-core）</li>
+ *     <li>Kotlin：{@link #getKotlinEngine()} / {@link #createKotlinEngine()}（需引入
+ *         org.jetbrains.kotlin:kotlin-scripting-jsr223）</li>
+ *     <li>BeanShell：{@link #getBeanShellEngine()} / {@link #createBeanShellEngine()}（需引入
+ *         org.apache-extras.beanshell:bsh）</li>
  * </ul>
- * 其它实现 JSR 223 的引擎（如 Ruby、Kotlin、BeanShell）可通过 {@link #getScript(String)} 或 {@link #createScript(String)} 加载.
+ * 其它实现 JSR 223 的引擎可通过 {@link #getScript(String)} 或 {@link #createScript(String)} 加载.
  *
  * @author Looly
  */
@@ -159,6 +164,72 @@ public class ScriptUtil {
      */
     public static ScriptEngine createGroovyEngine() {
         return createScript("groovy");
+    }
+
+    /**
+     * 获得单例的Ruby引擎. <br>
+     * 需要引入org.jruby:jruby-core
+     *
+     * @return Ruby引擎
+     * @since 1.0.0
+     */
+    public static ScriptEngine getRubyEngine() {
+        return getScript("ruby");
+    }
+
+    /**
+     * 创建Ruby引擎. <br>
+     * 需要引入org.jruby:jruby-core
+     *
+     * @return Ruby引擎
+     * @since 1.0.0
+     */
+    public static ScriptEngine createRubyEngine() {
+        return createScript("ruby");
+    }
+
+    /**
+     * 获得单例的Kotlin引擎. <br>
+     * 需要引入org.jetbrains.kotlin:kotlin-scripting-jsr223
+     *
+     * @return Kotlin引擎
+     * @since 1.0.0
+     */
+    public static ScriptEngine getKotlinEngine() {
+        return getScript("kotlin");
+    }
+
+    /**
+     * 创建Kotlin引擎. <br>
+     * 需要引入org.jetbrains.kotlin:kotlin-scripting-jsr223
+     *
+     * @return Kotlin引擎
+     * @since 1.0.0
+     */
+    public static ScriptEngine createKotlinEngine() {
+        return createScript("kotlin");
+    }
+
+    /**
+     * 获得单例的BeanShell引擎. <br>
+     * 需要引入org.apache-extras.beanshell:bsh
+     *
+     * @return BeanShell引擎
+     * @since 1.0.0
+     */
+    public static ScriptEngine getBeanShellEngine() {
+        return getScript("beanshell");
+    }
+
+    /**
+     * 创建BeanShell引擎. <br>
+     * 需要引入org.apache-extras.beanshell:bsh
+     *
+     * @return BeanShell引擎
+     * @since 1.0.0
+     */
+    public static ScriptEngine createBeanShellEngine() {
+        return createScript("beanshell");
     }
 
     /**
