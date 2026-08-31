@@ -1,6 +1,9 @@
 [submodule "cc-hongz-ztools-aop"]
 	path = cc-hongz-ztools-aop
 	url = https://gitee.com/deligense/cc-hongz-ztools-aop.git
+[submodule "cc-hongz-ztools-bloomFilter"]
+	path = cc-hongz-ztools-bloomFilter
+	url = https://gitee.com/deligense/cc-hongz-ztools-bloom-filter.git
 [submodule "cc-hongz-ztools-captcha"]
 	path = cc-hongz-ztools-captcha
 	url = https://gitee.com/deligense/cc-hongz-ztools-captcha.git
