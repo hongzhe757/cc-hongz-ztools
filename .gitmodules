@@ -40,6 +40,9 @@
 [submodule "cc-hongz-ztools-dfa"]
 	path = cc-hongz-ztools-dfa
 	url = https://gitee.com/deligense/cc-hongz-ztools-dfa.git
+[submodule "cc-hongz-ztools-poi"]
+	path = cc-hongz-ztools-poi
+	url = https://gitee.com/deligense/cc-hongz-ztools-poi.git
 [submodule "cc-hongz-ztools-protector"]
 	path = cc-hongz-ztools-protector
 	url = https://gitee.com/deligense/cc-hongz-ztools-protector.git
