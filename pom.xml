@@ -63,6 +63,7 @@
         -->
         <module>cc-hongz-ztools-core</module>
         <module>cc-hongz-ztools-aop</module>
+        <module>cc-hongz-ztools-bloomFilter</module>
         <module>cc-hongz-ztools-system</module>
         <module>cc-hongz-ztools-json</module>
         <module>cc-hongz-ztools-jwt</module>
