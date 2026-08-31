@@ -33,6 +33,7 @@
                 <configuration>
                     <configLocation>checks/checkstyle.xml</configLocation>
                     <suppressionsLocation>checks/checkstyle-suppressions.xml</suppressionsLocation>
+                    <includeTestSourceDirectory>true</includeTestSourceDirectory>
                     <failOnViolation>false</failOnViolation>
                     <violationSeverity>error</violationSeverity>
                 </configuration>
@@ -69,6 +70,9 @@
         <module>cc-hongz-ztools-script</module>
         <module>cc-hongz-ztools-http</module>
         <module>cc-hongz-ztools-extra</module>
+        <module>cc-hongz-ztools-dfa</module>
+        <module>cc-hongz-ztools-poi</module>
+        <module>cc-hongz-ztools-protector</module>
         <!--
         <module>cc-hongz-ztools-crypto</module>
         <module>cc-hongz-ztools-response</module>
