@@ -37,3 +37,6 @@
 [submodule "cc-hongz-ztools-extra"]
 	path = cc-hongz-ztools-extra
 	url = https://gitee.com/deligense/cc-hongz-ztools-extra.git
+[submodule "cc-hongz-ztools-dfa"]
+	path = cc-hongz-ztools-dfa
+	url = https://gitee.com/deligense/cc-hongz-ztools-dfa.git
