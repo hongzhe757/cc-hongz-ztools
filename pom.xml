@@ -68,6 +68,7 @@
         <module>cc-hongz-ztools-setting</module>
         <module>cc-hongz-ztools-script</module>
         <module>cc-hongz-ztools-http</module>
+        <module>cc-hongz-ztools-extra</module>
         <!--
         <module>cc-hongz-ztools-crypto</module>
         <module>cc-hongz-ztools-response</module>

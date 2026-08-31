@@ -34,3 +34,6 @@
 [submodule "cc-hongz-ztools-http"]
 	path = cc-hongz-ztools-http
 	url = https://gitee.com/deligense/cc-hongz-ztools-http.git
+[submodule "cc-hongz-ztools-extra"]
+	path = cc-hongz-ztools-extra
+	url = https://gitee.com/deligense/cc-hongz-ztools-extra.git
