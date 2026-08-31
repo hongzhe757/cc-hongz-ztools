@@ -9,4 +9,10 @@
 
     <!-- PasswdStrength: check/getLevel/checkCharacterType 方法中的魔数是密码强度算法固有常量 -->
     <suppress files="PasswdStrength.java" checks="MagicNumber"/>
+
+    <!-- 测试类：断言中的数字属测试数据，非魔法常量，豁免 MagicNumber -->
+    <suppress files=".*[\\/]test[\\/].*" checks="MagicNumber"/>
+
+    <!-- 测试类：测试方法的中文描述由 @DisplayName 承担，豁免 MissingJavadocMethod -->
+    <suppress files=".*[\\/]test[\\/].*" checks="MissingJavadocMethod"/>
 </suppressions>
