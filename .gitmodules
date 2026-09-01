@@ -10,6 +10,9 @@
 [submodule "cc-hongz-ztools-bloomFilter"]
 	path = cc-hongz-ztools-bloomFilter
 	url = https://gitee.com/deligense/cc-hongz-ztools-bloom-filter.git
+[submodule "cc-hongz-ztools-bom"]
+	path = cc-hongz-ztools-bom
+	url = https://gitee.com/deligense/cc-hongz-ztools-bom.git
 [submodule "cc-hongz-ztools-cache"]
 	path = cc-hongz-ztools-cache
 	url = https://gitee.com/deligense/cc-hongz-ztools-cache.git
