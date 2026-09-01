@@ -58,11 +58,10 @@
     </build>
 
     <modules>
-        <!--
         <module>cc-hongz-ztools-captcha</module>
-        -->
         <module>cc-hongz-ztools-core</module>
         <module>cc-hongz-ztools-ai</module>
+        <module>cc-hongz-ztools-all</module>
         <module>cc-hongz-ztools-aop</module>
         <module>cc-hongz-ztools-bloomFilter</module>
         <module>cc-hongz-ztools-cache</module>
@@ -79,8 +78,8 @@
         <module>cc-hongz-ztools-dfa</module>
         <module>cc-hongz-ztools-poi</module>
         <module>cc-hongz-ztools-protector</module>
-        <!--
         <module>cc-hongz-ztools-crypto</module>
+        <!--
         <module>cc-hongz-ztools-response</module>
         -->
     </modules>
