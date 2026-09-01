@@ -1,6 +1,9 @@
 [submodule "cc-hongz-ztools-ai"]
 	path = cc-hongz-ztools-ai
 	url = https://gitee.com/deligense/cc-hongz-ztools-ai.git
+[submodule "cc-hongz-ztools-all"]
+	path = cc-hongz-ztools-all
+	url = https://gitee.com/deligense/cc-hongz-ztools-all.git
 [submodule "cc-hongz-ztools-aop"]
 	path = cc-hongz-ztools-aop
 	url = https://gitee.com/deligense/cc-hongz-ztools-aop.git
