@@ -7,6 +7,9 @@
 [submodule "cc-hongz-ztools-cache"]
 	path = cc-hongz-ztools-cache
 	url = https://gitee.com/deligense/cc-hongz-ztools-cache.git
+[submodule "cc-hongz-ztools-cron"]
+	path = cc-hongz-ztools-cron
+	url = https://gitee.com/deligense/cc-hongz-ztools-cron.git
 [submodule "cc-hongz-ztools-captcha"]
 	path = cc-hongz-ztools-captcha
 	url = https://gitee.com/deligense/cc-hongz-ztools-captcha.git
