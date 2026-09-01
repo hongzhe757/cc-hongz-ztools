@@ -17,6 +17,72 @@
     <name>cc-hongz-ztools</name>
     <description>工具集合模块</description>
 
+    <!-- ============ 统一版本号集中管理 ============ -->
+    <!-- 所有第三方库版本号在此集中定义，子模块 pom 引用 ${xxx.version}，不散落硬编码 -->
+    <properties>
+        <!-- 测试框架（所有模块共用） -->
+        <junit.version>5.10.3</junit.version>
+        <lombok.version>1.18.34</lombok.version>
+
+        <!-- aop：动态代理 -->
+        <cglib.version>3.3.0</cglib.version>
+        <spring.version>5.3.27</spring.version>
+
+        <!-- cron：定时任务 -->
+        <quartz.version>2.4.0</quartz.version>
+
+        <!-- poi：Office 文档 -->
+        <poi.version>4.1.2</poi.version>
+
+        <!-- db：连接池 + NoSQL -->
+        <c3p0.version>0.12.0</c3p0.version>
+        <dbcp2.version>2.12.0</dbcp2.version>
+        <tomcat-jdbc.version>10.0.23</tomcat-jdbc.version>
+        <druid.version>1.2.23</druid.version>
+        <hikariCP.version>4.0.3</hikariCP.version>
+        <mongo4.version>4.9.1</mongo4.version>
+        <jedis.version>5.0.2</jedis.version>
+        <sqlite.version>3.46.0.1</sqlite.version>
+        <hsqldb.version>2.5.2</hsqldb.version>
+
+        <!-- extra：模板 / 邮件 / SSH / 拼音 / 分词等 -->
+        <velocity.version>2.3</velocity.version>
+        <beetl.version>3.15.14.RELEASE</beetl.version>
+        <rythm.version>1.4.2</rythm.version>
+        <freemarker.version>2.3.32</freemarker.version>
+        <enjoy.version>5.1.3</enjoy.version>
+        <thymeleaf.version>3.1.5.RELEASE</thymeleaf.version>
+        <mail.version>1.6.2</mail.version>
+        <jsch.version>0.1.55</jsch.version>
+        <sshj.version>0.38.0</sshj.version>
+        <zxing.version>3.5.3</zxing.version>
+        <net.version>3.9.0</net.version>
+        <emoji-java.version>5.1.1</emoji-java.version>
+        <servlet-api.version>4.0.1</servlet-api.version>
+        <spring-boot.version>2.7.18</spring-boot.version>
+    </properties>
+
+    <!-- ============ 依赖版本管理（dependencyManagement） ============ -->
+    <!-- 多模块共用的依赖在此声明版本，子模块只写 groupId:artifactId，不写 version -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- 测试框架：JUnit5（所有模块测试共用） -->
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- 测试辅助：Lombok（测试代码去样板） -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <build>
         <plugins>
             <!-- checkstyle 代码规范检查：绑定 validate 阶段，违规不阻断构建（failOnViolation=false） -->
@@ -53,7 +119,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- surefire 单元测试：JVM 加 --add-opens 解决 JDK17 模块化反射限制（cglib/反射需访问 java.lang 等内部包） -->
+            <!-- surefire 单元测试：JVM 加 add-opens 解决 JDK17 模块化反射限制（cglib/反射需访问 java.lang 等内部包） -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
