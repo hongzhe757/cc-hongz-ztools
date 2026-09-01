@@ -189,10 +189,10 @@
         <module>cc-hongz-ztools-aop</module>
 
         <!-- ============ AI 能力 ============ -->
-        <!-- LLM 调用（OpenAI/DeepSeek/Gemini/Grok/Ollama/豆包/Hutool） -->
+        <!-- LLM 调用（OpenAI/DeepSeek/Gemini/Grok/Ollama/豆包） -->
         <module>cc-hongz-ztools-ai</module>
 
-        <!-- ============ 企业自有（非 hutool 移植） ============ -->
+        <!-- ============ 企业自有 ============ -->
         <!-- 统一响应封装 -->
         <module>cc-hongz-ztools-response</module>
         <!-- 代码混淆加密保护 -->
