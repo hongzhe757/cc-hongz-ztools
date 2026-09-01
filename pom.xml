@@ -65,6 +65,7 @@
         <module>cc-hongz-ztools-aop</module>
         <module>cc-hongz-ztools-bloomFilter</module>
         <module>cc-hongz-ztools-cache</module>
+        <module>cc-hongz-ztools-cron</module>
         <module>cc-hongz-ztools-system</module>
         <module>cc-hongz-ztools-json</module>
         <module>cc-hongz-ztools-jwt</module>
