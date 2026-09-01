@@ -19,6 +19,7 @@
 
     <build>
         <plugins>
+            <!-- checkstyle 代码规范检查：绑定 validate 阶段，违规不阻断构建（failOnViolation=false） -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -31,10 +32,15 @@
                     </dependency>
                 </dependencies>
                 <configuration>
+                    <!-- 检查规则文件 -->
                     <configLocation>checks/checkstyle.xml</configLocation>
+                    <!-- 违规豁免规则（如测试类 MagicNumber/MissingJavadocMethod 豁免） -->
                     <suppressionsLocation>checks/checkstyle-suppressions.xml</suppressionsLocation>
+                    <!-- 同时检查测试代码（src/test） -->
                     <includeTestSourceDirectory>true</includeTestSourceDirectory>
+                    <!-- 违规不阻断构建，仅告警 -->
                     <failOnViolation>false</failOnViolation>
+                    <!-- 违规级别记为 error（用于 IDE/日志高亮） -->
                     <violationSeverity>error</violationSeverity>
                 </configuration>
                 <executions>
@@ -47,6 +53,7 @@
                     </execution>
                 </executions>
             </plugin>
+            <!-- surefire 单元测试：JVM 加 --add-opens 解决 JDK17 模块化反射限制（cglib/反射需访问 java.lang 等内部包） -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
