@@ -46,7 +46,7 @@
         <mongo4.version>4.9.1</mongo4.version>
         <jedis.version>5.0.2</jedis.version>
         <sqlite.version>3.46.0.1</sqlite.version>
-        <hsqldb.version>2.5.2</hsqldb.version>
+        <hsqldb.version>2.7.4</hsqldb.version>
 
         <!-- extra：模板 / 邮件 / SSH / 拼音 / 分词等 -->
         <velocity.version>2.3</velocity.version>
