@@ -88,6 +88,13 @@
 
     <build>
         <plugins>
+            <!-- spring-javaformat 代码格式化：插件保留（可手动 mvn spring-javaformat:apply），
+                 不绑定构建阶段（Spring 风格与 hutool 迁移代码不兼容，validate 会产生大量格式违规） -->
+            <plugin>
+                <groupId>io.spring.javaformat</groupId>
+                <artifactId>spring-javaformat-maven-plugin</artifactId>
+                <version>0.0.47</version>
+            </plugin>
             <!-- checkstyle 代码规范检查：绑定 validate 阶段，违规不阻断构建（failOnViolation=false） -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

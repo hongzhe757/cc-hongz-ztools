@@ -47,6 +47,13 @@
             <property name="allowMissingPropertyJavadoc" value="true"/>
         </module>
 
+        <!-- 类型 javadoc：@author 必须存在且非空（作者/版本约定） -->
+        <module name="JavadocType">
+            <property name="scope" value="public"/>
+            <property name="allowMissingParamTags" value="true"/>
+            <property name="authorFormat" value="\S"/>
+        </module>
+
         <module name="JavadocStyle">
             <property name="checkFirstSentence" value="true"/>
             <property name="checkEmptyJavadoc" value="true"/>
@@ -56,6 +63,11 @@
         <module name="JavadocVariable">
             <property name="scope" value="public"/>
         </module>
+
+        <!-- 从 google_checks 合并：javadoc 位置与 @clause 描述非空（低误报规则） -->
+        <module name="InvalidJavadocPosition"/>
+
+        <module name="NonEmptyAtclauseDescription"/>
 
         <!-- ============ Whitespace ============ -->
         <module name="WhitespaceAround"/>
