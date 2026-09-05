@@ -197,6 +197,8 @@
         <module>cc-hongz-ztools-response</module>
         <!-- 代码混淆加密保护 -->
         <module>cc-hongz-ztools-protector</module>
+        <!-- 代码混淆加密保护端到端演示（引用 aop 动态代理） -->
+        <module>cc-hongz-ztools-protector-demo</module>
 
         <!-- ============ 聚合 / 依赖管理 ============ -->
         <!-- 全量聚合模块（shade 打包所有子模块） -->
