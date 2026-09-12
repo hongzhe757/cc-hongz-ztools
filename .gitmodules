@@ -73,3 +73,6 @@
 [submodule "cc-hongz-ztools-protector-demo"]
 	path = cc-hongz-ztools-protector-demo
 	url = https://gitee.com/deligense/cc-hongz-ztools-protector-demo.git
+[submodule "cc-hongz-ztools-status"]
+	path = cc-hongz-ztools-status
+	url = https://gitee.com/deligense/cc-hongz-ztools-status.git

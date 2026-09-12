@@ -193,6 +193,8 @@
         <module>cc-hongz-ztools-ai</module>
 
         <!-- ============ 企业自有 ============ -->
+        <!-- 统一状态码抽象（业务状态码 + HTTP 状态码，可插拔） -->
+        <module>cc-hongz-ztools-status</module>
         <!-- 统一响应封装 -->
         <module>cc-hongz-ztools-response</module>
         <!-- 代码混淆加密保护 -->
