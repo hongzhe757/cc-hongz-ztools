@@ -76,3 +76,6 @@
 [submodule "cc-hongz-ztools-status"]
 	path = cc-hongz-ztools-status
 	url = https://gitee.com/deligense/cc-hongz-ztools-status.git
+[submodule "cc-hongz-ztools-i18n"]
+	path = cc-hongz-ztools-i18n
+	url = https://gitee.com/deligense/cc-hongz-ztools-i18n.git

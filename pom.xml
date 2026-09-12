@@ -195,6 +195,8 @@
         <!-- ============ 企业自有 ============ -->
         <!-- 统一状态码抽象（业务状态码 + HTTP 状态码，可插拔） -->
         <module>cc-hongz-ztools-status</module>
+        <!-- 国际化消息解析（业务状态码 → 本地化消息） -->
+        <module>cc-hongz-ztools-i18n</module>
         <!-- 统一响应封装 -->
         <module>cc-hongz-ztools-response</module>
         <!-- 代码混淆加密保护 -->
