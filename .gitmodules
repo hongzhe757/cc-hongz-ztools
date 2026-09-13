@@ -79,3 +79,6 @@
 [submodule "cc-hongz-ztools-i18n"]
 	path = cc-hongz-ztools-i18n
 	url = https://gitee.com/deligense/cc-hongz-ztools-i18n.git
+[submodule "cc-hongz-ztools-pdf"]
+	path = cc-hongz-ztools-pdf
+	url = https://gitee.com/deligense/cc-hongz-ztools-pdf.git
