@@ -37,6 +37,8 @@
         <!-- pdf：iText HTML→PDF -->
         <itext.version>7.1.12</itext.version>
         <html2pdf.version>3.0.1</html2pdf.version>
+        <!-- pdf：xdocreport Word→PDF -->
+        <xdocreport.version>2.2.0</xdocreport.version>
 
         <!-- system：系统/硬件信息采集 -->
         <oshi.version>6.6.2</oshi.version>
