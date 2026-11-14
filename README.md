@@ -120,6 +120,18 @@
 
 > 注意：各模块中的三方集成依赖（如 POI、iText、BouncyCastle）声明为 `optional`，不会自动传递。使用相关能力时需在使用方 pom 中显式引入这些依赖。
 
+## 仓库镜像
+
+- Gitee：`https://gitee.com/deligense/cc-hongz-ztools`（`origin`）
+- GitHub：`https://github.com/hongzhe757/cc-hongz-ztools`（`github`）
+- 各子模块均为**独立仓库**，已同步到 GitHub 同名仓；`.gitmodules` 使用相对路径 `../<repo>.git`，从 Gitee 或 GitHub 克隆聚合仓均可解析到同平台兄弟仓。
+
+```bash
+git clone --recurse-submodules https://github.com/hongzhe757/cc-hongz-ztools.git
+# 或
+git clone --recurse-submodules https://gitee.com/deligense/cc-hongz-ztools.git
+```
+
 ## 构建
 
 ```bash

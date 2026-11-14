@@ -1,84 +1,85 @@
 [submodule "cc-hongz-ztools-ai"]
 	path = cc-hongz-ztools-ai
-	url = https://gitee.com/deligense/cc-hongz-ztools-ai.git
+	url = ../cc-hongz-ztools-ai.git
 [submodule "cc-hongz-ztools-all"]
 	path = cc-hongz-ztools-all
-	url = https://gitee.com/deligense/cc-hongz-ztools-all.git
+	url = ../cc-hongz-ztools-all.git
 [submodule "cc-hongz-ztools-aop"]
 	path = cc-hongz-ztools-aop
-	url = https://gitee.com/deligense/cc-hongz-ztools-aop.git
+	url = ../cc-hongz-ztools-aop.git
 [submodule "cc-hongz-ztools-bloomFilter"]
 	path = cc-hongz-ztools-bloomFilter
-	url = https://gitee.com/deligense/cc-hongz-ztools-bloom-filter.git
+	url = ../cc-hongz-ztools-bloom-filter.git
 [submodule "cc-hongz-ztools-bom"]
 	path = cc-hongz-ztools-bom
-	url = https://gitee.com/deligense/cc-hongz-ztools-bom.git
+	url = ../cc-hongz-ztools-bom.git
 [submodule "cc-hongz-ztools-cache"]
 	path = cc-hongz-ztools-cache
-	url = https://gitee.com/deligense/cc-hongz-ztools-cache.git
+	url = ../cc-hongz-ztools-cache.git
 [submodule "cc-hongz-ztools-cron"]
 	path = cc-hongz-ztools-cron
-	url = https://gitee.com/deligense/cc-hongz-ztools-cron.git
+	url = ../cc-hongz-ztools-cron.git
 [submodule "cc-hongz-ztools-captcha"]
 	path = cc-hongz-ztools-captcha
-	url = https://gitee.com/deligense/cc-hongz-ztools-captcha.git
+	url = ../cc-hongz-ztools-captcha.git
 [submodule "cc-hongz-ztools-core"]
 	path = cc-hongz-ztools-core
-	url = https://gitee.com/deligense/cc-hongz-ztools-core.git
+	url = ../cc-hongz-ztools-core.git
 [submodule "cc-hongz-ztools-crypto"]
 	path = cc-hongz-ztools-crypto
-	url = https://gitee.com/deligense/cc-hongz-ztools-crypto.git
+	url = ../cc-hongz-ztools-crypto.git
 [submodule "cc-hongz-ztools-response"]
 	path = cc-hongz-ztools-response
-	url = https://gitee.com/deligense/cc-hongz-ztools-response.git
+	url = ../cc-hongz-ztools-response.git
 [submodule "cc-hongz-ztools-system"]
 	path = cc-hongz-ztools-system
-	url = https://gitee.com/deligense/cc-hongz-ztools-system.git
+	url = ../cc-hongz-ztools-system.git
 [submodule "cc-hongz-ztools-log"]
 	path = cc-hongz-ztools-log
-	url = https://gitee.com/deligense/cc-hongz-ztools-log.git
+	url = ../cc-hongz-ztools-log.git
 [submodule "cc-hongz-ztools-json"]
 	path = cc-hongz-ztools-json
-	url = https://gitee.com/deligense/cc-hongz-ztools-json.git
+	url = ../cc-hongz-ztools-json.git
 [submodule "cc-hongz-ztools-jwt"]
 	path = cc-hongz-ztools-jwt
-	url = https://gitee.com/deligense/cc-hongz-ztools-jwt.git
+	url = ../cc-hongz-ztools-jwt.git
 [submodule "cc-hongz-ztools-socket"]
 	path = cc-hongz-ztools-socket
-	url = https://gitee.com/deligense/cc-hongz-ztools-socket.git
+	url = ../cc-hongz-ztools-socket.git
 [submodule "cc-hongz-ztools-setting"]
 	path = cc-hongz-ztools-setting
-	url = https://gitee.com/deligense/cc-hongz-ztools-setting.git
+	url = ../cc-hongz-ztools-setting.git
 [submodule "cc-hongz-ztools-script"]
 	path = cc-hongz-ztools-script
-	url = https://gitee.com/deligense/cc-hongz-ztools-script.git
+	url = ../cc-hongz-ztools-script.git
 [submodule "cc-hongz-ztools-http"]
 	path = cc-hongz-ztools-http
-	url = https://gitee.com/deligense/cc-hongz-ztools-http.git
+	url = ../cc-hongz-ztools-http.git
 [submodule "cc-hongz-ztools-extra"]
 	path = cc-hongz-ztools-extra
-	url = https://gitee.com/deligense/cc-hongz-ztools-extra.git
+	url = ../cc-hongz-ztools-extra.git
 [submodule "cc-hongz-ztools-db"]
 	path = cc-hongz-ztools-db
-	url = https://gitee.com/deligense/cc-hongz-ztools-db.git
+	url = ../cc-hongz-ztools-db.git
 [submodule "cc-hongz-ztools-dfa"]
 	path = cc-hongz-ztools-dfa
-	url = https://gitee.com/deligense/cc-hongz-ztools-dfa.git
+	url = ../cc-hongz-ztools-dfa.git
 [submodule "cc-hongz-ztools-poi"]
 	path = cc-hongz-ztools-poi
-	url = https://gitee.com/deligense/cc-hongz-ztools-poi.git
+	url = ../cc-hongz-ztools-poi.git
 [submodule "cc-hongz-ztools-protector"]
 	path = cc-hongz-ztools-protector
-	url = https://gitee.com/deligense/cc-hongz-ztools-protector.git
+	url = ../cc-hongz-ztools-protector.git
 [submodule "cc-hongz-ztools-protector-demo"]
 	path = cc-hongz-ztools-protector-demo
-	url = https://gitee.com/deligense/cc-hongz-ztools-protector-demo.git
+	url = ../cc-hongz-ztools-protector-demo.git
 [submodule "cc-hongz-ztools-status"]
 	path = cc-hongz-ztools-status
-	url = https://gitee.com/deligense/cc-hongz-ztools-status.git
+	url = ../cc-hongz-ztools-status.git
 [submodule "cc-hongz-ztools-i18n"]
 	path = cc-hongz-ztools-i18n
-	url = https://gitee.com/deligense/cc-hongz-ztools-i18n.git
+	url = ../cc-hongz-ztools-i18n.git
 [submodule "cc-hongz-ztools-pdf"]
 	path = cc-hongz-ztools-pdf
-	url = https://gitee.com/deligense/cc-hongz-ztools-pdf.git
+	url = ../cc-hongz-ztools-pdf.git
+
